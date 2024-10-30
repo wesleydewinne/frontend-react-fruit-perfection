@@ -2,7 +2,7 @@ import './App.css';
 import citroenen from './assets/citroenen.jpeg';
 import limoen from './assets/limoenen.png';
 import ijsblokjes from './assets/ijsblokjes.jpg';
-import svgr from "vite-plugin-svgr";
+import {ReactComponent as ShoppingCart} from './assets/winkelmandje.svg';
 
 
 
@@ -16,6 +16,7 @@ function App() {
                     <li><a href="/">Ons verhaal</a></li>
                     <li><a href="/">Blog</a></li>
                 </ul>
+                <ShoppingCart className="shopping-cart-icon"/>
             </nav>
             
             <h1>Fruit perfection</h1>
